@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zhivar Sourati"
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : "Senior Software Engineering Student"
   # location         : ""
   employer         :
