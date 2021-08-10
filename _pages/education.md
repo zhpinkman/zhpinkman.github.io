@@ -10,4 +10,3 @@ redirect_from:
 {% include base_path %}
 
 
-I have no idea what am I doing. :))
