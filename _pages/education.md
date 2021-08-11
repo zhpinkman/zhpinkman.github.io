@@ -7,6 +7,8 @@ redirect_from:
   - /education
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
+
+Loading ...
 
 
