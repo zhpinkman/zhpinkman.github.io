@@ -10,6 +10,5 @@ redirect_from:
 
 # Zhivar Sourati Hassanzadeh
 
-```
-(+98) 935 5102061 | zhivarsourati@gmail.com | zhpinkman | zhivar-sourati | zhivarsourati
-```
+
+(+98) 935 5102061 | zhivarsourati@gmail.com | zhpinkman | zhivar-sourati | zhivarsourati
