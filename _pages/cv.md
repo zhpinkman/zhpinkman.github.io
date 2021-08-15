@@ -59,7 +59,7 @@ Dr. Pilehvar
 
 **RANKED 1ST** AMONG ALL COMPUTER ENGINEERING STUDENTS(103), UNIVERSITY OF TEHRAN 2017 - Present
 
-**RECEIVED SCHOLARSHIP** FROMSUPPORTERFOUNDATIONOFUNIVERSITYOFTEHRANASSTUDENTWITHEXCEPTIONALTALENT 2017 - Present
+**RECEIVED SCHOLARSHIP** FROM SUPPORTER FOUNDATION OF UNIVERSITY OF TEHRAN AS STUDENT WITH EXCEPTIONAL TALENT 2017 - Present
 
 **F.O.E * AWARD** FOR BEING RANKED **1 ST** AMONG ALL COMPUTER ENGINEERING STUDENTS(103), UNIVERSITY OF TEHRAN 2017 - Present
 
@@ -114,7 +114,7 @@ ENTRANCE EXAM BECAUSE OF THE EXCEPTIONAL PERFORMANCE IN THE UNDERGRADUATE STUDIE
 ### Compiler
 
 - Implemented a compiler from scratch for a given language analogous to Java programming language.
-- LearnedandanalyzeddifferentdesignpatternsparticularlytheonesusedinlanguagetheoryandcompilerslikeObserverpatternbydeveloping
+- Learned and analyzed different design patterns particularly the ones used in language theory and compilers like Observer pattern by developing
     different toy-tasks on this topic.
 
 ### Operating Systems
