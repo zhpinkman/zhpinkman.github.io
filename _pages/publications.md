@@ -5,12 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+## Publications
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+- Sourati Hassanzadeh, Z., Sabri, N., Chamani, H., &; Bahrak, B. (2021). Quantitative Analysis of Fanfictions’ Popularity.Social Network Analysis
+    and Mining.(under review)
+- Chamani, H., Sourati Hassanzadeh, Z., &; Bahrak, B. (2021). An Overview of Regression Methods in Early Prediction of Movie Ratings. (under
+    review)
