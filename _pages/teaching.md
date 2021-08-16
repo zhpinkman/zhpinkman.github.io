@@ -8,14 +8,14 @@ author_profile: true
 ## Teaching Experience as a Teacher Assistant
 
 - Probability and Statistics in Engineering
-Prof. Bahrak
+Dr. Bahrak
 - Theory of Formal Languages and Automata
-Prof. Hojjat
+Dr. Hojjat
 - Advanced Programming
-Prof. Khosravi
+Dr. Khosravi
 - Design and Analysis of Algorithms
-Prof. Mahini
+Dr. Mahini
 - Artificial Intelligence
-Prof. Moradi
+Dr. Moradi
 - Database Systems
-Prof. Shakery
+Dr. Shakery

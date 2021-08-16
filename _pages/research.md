@@ -22,7 +22,7 @@ author_profile: true
 ```
 Present
 ```
-Prof. Bahrak
+Dr. Bahrak
 
 ### Participant in thereading group Natural Language Processing
 

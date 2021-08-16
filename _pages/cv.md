@@ -35,7 +35,7 @@ GPA 19.48 / 20, Last Year’s GPA 19.52 / 20, ranked first
 ```
 Present
 ```
-Prof. Bahrak
+Dr. Bahrak
 
 ### Participant in thereading group Natural Language Processing
 
@@ -133,17 +133,17 @@ ENTRANCE EXAM BECAUSE OF THE EXCEPTIONAL PERFORMANCE IN THE UNDERGRADUATE STUDIE
 ## Teaching Experience as a Teacher Assistant
 
 - Probability and Statistics in Engineering
-    Prof. Bahrak
+    Dr. Bahrak
 - Theory of Formal Languages and Automata
-    Prof. Hojjat
+    Dr. Hojjat
 - Advanced Programming
-    Prof. Khosravi
+    Dr. Khosravi
        - Design and Analysis of Algorithms
-          Prof. Mahini
+          Dr. Mahini
        - Artificial Intelligence
-          Prof. Moradi
+          Dr. Moradi
        - Database Systems
-          Prof. Shakery
+          Dr. Shakery
 
 ## Volunteer Experience
 
