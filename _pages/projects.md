@@ -42,7 +42,7 @@ author_profile: true
 ### Compiler
 
 - Implemented a compiler from scratch for a given language analogous to Java programming language.
-- LearnedandanalyzeddifferentdesignpatternsparticularlytheonesusedinlanguagetheoryandcompilerslikeObserverpatternbydeveloping
+- Learned and analyzed different design patterns particularly the ones used in language theory and compilers like Observer pattern by developing
     different toy-tasks on this topic.
 
 ### Operating Systems
