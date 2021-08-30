@@ -15,4 +15,4 @@ redirect_from:
 
 SCHOOL OF ELECTRICAL AND COMPUTER ENGINEERING, UNIVERSITY OF TEHRAN Sep. 2017 - Sep. 2021
 
-GPA 19.48 / 20, Last Year’s GPA 19.52 / 20, ranked first
+CGPA 19.46 / 20, Last Year’s GPA 19.49 / 20, ranked first
