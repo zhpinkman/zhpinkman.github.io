@@ -30,7 +30,7 @@ author_profile: true
     house prices dataset.
 - Analyzed different classification models such as random forests by applying them on different datasets and learning more about entropy and
     information-theory basics.
-- Examined the performance of different searching algorithms such as A* and IDS on a custom-built datasets.
+- Examined the performance of different searching algorithms such as A* and IDS on custom-built datasets.
 
 ### Advanced Programming
 
@@ -39,7 +39,7 @@ author_profile: true
 
 ### Operating Systems
 
-- Implemented a ftp-server using CPP including different features such as being able to tolerate a down server by switching to a UDP based
+- Implemented a FTP-server using CPP including different features such as being able to tolerate a down server by switching to a UDP-based
     peer2peer network model between the individuals.
 - Developed a load balancing system using semaphores.
 - Learned the principles of multithreading and multiprocessing in operating systems by implementing a parallel classifier.
@@ -48,7 +48,7 @@ author_profile: true
 
 - Implemented a p2p network with peers being able to find their neighbors, and check the tolerability of the system by turning off nodes at
     random.
-- Implemented a ftp-server from scratch using Python language and socket-programming having various features such as being able to login to
+- Implemented a FTP-server from scratch using Python language and socket-programming having various features such as being able to login to
     the server, check the available files and upload new files to the server.
 - Examined RYU-controllers and different congestion control mechanisms.
 - Analyzed and used different network security protocols and algorithms used to encrypt files and also mail security (SMIME)
