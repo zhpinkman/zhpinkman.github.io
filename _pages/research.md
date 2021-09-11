@@ -8,27 +8,21 @@ author_profile: true
 
 ## Research Interests
 
-- Data Science 
-- Social Networks 
-- Statistical Inference 
+- Applied Machine Learning
+- Complex Networks
+- Statistical Inference
 - Natural Language Processing
 
 ## Research Experience
 
-### Research Assistant, Data Analysis
+### Research Assistant under the Supervision of [Dr. Bahrak](https://profile.ut.ac.ir/en/~bahrak)
 
-- LEARNED MORE ABOUT SOCIAL NETWORKS AND CARRIED OUT MULTIPLE PROJECTS IN THIS FIELD.
-- ANALYZED THE POPULARITY OF FANFICTIONS.
-- EXAMINED VARIOUS NON-PARAMETRIC TESTS, PERMUTATION TESTS, AND EXPONENTIAL RANDOM GRAPH MODELS.
-- GATHERED ALL PERSIAN TWEETS ON A REMOTE SERVER.
+- Learned about complex networks, carried out multiple projects in this field, and read related papers, including surveys on analysis of the network of Twitter users.
+- Analyzed the popularity of fanfictions using various attributes available on fanfictions, exploiting the tools and ideas discussed in social network analysis.
+- Performed network inference on complex networks using various non-parametric tests, permutation tests, and exponential random graph models.
+- Managed to collect all Persian tweets published from ten years ago until 2021 September, using two remote servers, one being used as a proxy tunnel and the second one as a database to store all the data in a well-structured format on Elastic.
 
-Dr. Bahrak
+### NLP Research Intern under the Supervision of [Dr. Pilehvar](https://pilehvar.github.io/)
 
-### Participant in the reading group,  Natural Language Processing
-
-- READ PAPERS ABOUT NLP AND DEVELOPED A DEEP UNDERSTANDING OF STATE-OF-THE-ART NLP MODELS.
-- LEARNED DIFFERENT TOPICS IN NLP AND IMPLEMENTED SPECIFIC TASKS SUCH AS NER, AND QA CHAT BOTS TO BE ABLE TO
-    LEARN NLP MORE PRACTICALLY.
-
-
-Dr. Pilehvar
+- Read papers about NLP and developed a deep understanding of state-of-the-art NLP models.
+- Learned different topics in NLP and implemented specific tasks such as [NER](https://github.com/zhpinkman/NER-model) and [QA chatbots](https://github.com/zhpinkman/chatbot-using-seq2seq) to learn NLP more practically.

@@ -7,12 +7,12 @@ redirect_from:
   - /education
 ---
 
-<!-- {% include base_path %} -->
-
 ## Education
 
-### Bachelor of Science,Computer Engineering Tehran, Iran
+### Bachelor of Science, Computer Engineering 
 
-SCHOOL OF ELECTRICAL AND COMPUTER ENGINEERING, UNIVERSITY OF TEHRAN Sep. 2017 - Sep. 2021
+[School of Electrical and Computer Engineering, University of Tehran](https://ece.ut.ac.ir/en/ece)
 
-CGPA 19.46 / 20, Last Year’s GPA 19.49 / 20, ranked first
+Sept. 2017 - Sept. 2021
+
+GPA 4.0 / 4.0
