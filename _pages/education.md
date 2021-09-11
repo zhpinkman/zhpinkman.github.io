@@ -7,8 +7,6 @@ redirect_from:
   - /education
 ---
 
-## Education
-
 ### Bachelor of Science, Computer Engineering 
 
 [School of Electrical and Computer Engineering, University of Tehran](https://ece.ut.ac.ir/en/ece)
