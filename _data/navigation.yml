@@ -1,23 +1,24 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-  
   - title: "Education"
     url: /education/
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Projects"
-    url: /projects/
   
   - title: "Research"
     url: /research/
 
+  - title: "Publications"
+    url: /publications/
+
   - title: "Honors"
     url: /honors/
+
+  - title: "Teaching"
+    url: /teaching/    
+      
+  - title: "Projects"
+    url: /projects/
+    
+  - title: "Transcript"
+    url: /transcript/
+
   
