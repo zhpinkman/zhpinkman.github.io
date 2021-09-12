@@ -12,6 +12,7 @@ author_profile: true
 - Complex Networks
 - Statistical Inference
 - Natural Language Processing
+- Reinforcement Learning
 
 ## Research Experience
 
