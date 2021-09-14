@@ -8,11 +8,29 @@ author_profile: true
 
 ## Research Interests
 
-- Applied Machine Learning
-- Complex Networks
-- Statistical Inference
-- Natural Language Processing
-- Reinforcement Learning
+
+<div>
+<div style="display:flex;justify-content:space-between">
+<p style="display:list-item">
+Applied Machine Learning
+</p>
+<p style="display:list-item">
+Statistical Inference
+</p>
+<p style="display:list-item">
+Complex Networks
+</p>
+</div>
+
+<div style="display:flex;justify-content:space-around">
+<p style="display:list-item">
+Reinforcement Learning
+</p>
+<p style="display:list-item">
+Natural Language Processing
+</p>
+</div>
+</div>
 
 ## Research Experience
 
