@@ -22,7 +22,7 @@ Statistical Inference
 </p>
 </div>
 
-<div style="display:flex;justify-content:space-around">
+<div style="display:flex;justify-content:space-between">
 <p style="display:list-item">
 Economics
 </p>
