@@ -15,16 +15,19 @@ author_profile: true
 Applied Machine Learning
 </p>
 <p style="display:list-item">
-Statistical Inference
+Reinforcement Learning
 </p>
 <p style="display:list-item">
-Complex Networks
+Statistical Inference
 </p>
 </div>
 
 <div style="display:flex;justify-content:space-around">
 <p style="display:list-item">
-Reinforcement Learning
+Economics
+</p>
+<p style="display:list-item">
+Complex Networks
 </p>
 <p style="display:list-item">
 Natural Language Processing
