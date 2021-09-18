@@ -16,7 +16,7 @@ author_profile: true
 
 ### [Reinforcement Learning](https://github.com/zhpinkman/Reinforcement-Learning)
 
-- Solved different n-armed bandit problems with different policies considering different criteria such as regret and average reward.
+- Solved different n-armed bandit problems with different policies considering different criteria such as regret and average reward, utilizing Prospect theory by Daniel Kahneman to investigate the monetary value of waiting in a real-world problem.
 - Develop a load balancing framework on the famous jack's rental car problem using policy iteration algorithm.
 - Analyzed different On-policy and Off-policy methods by comparing their accuracy and performance on different tasks.
 
