@@ -23,5 +23,5 @@ University of Tehran is the oldest, largest, and the most prestigious university
 **Admission to University of Tehran and Sharif University of Technology** for the master's degree without the Iranian University Entrance Exam because of the exceptional performance in the undergraduate studies
     
 
-**Being admitted and Offered a research assistant position at ZHAW** (Zurich University of Applied Sciences) for an one-year internship.
+**Being admitted and Offered a research assistant position at ZHAW** (Zurich University of Applied Sciences) for a one-year internship.
 I received this offer after I got the top score in the IAESTE selection exam (International Association for the Exchange of Students for Technical Experience).s

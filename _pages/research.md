@@ -37,6 +37,8 @@ Natural Language Processing
 
 ## Research Experience
 
+### NLP Research Intern under the Supervision of [Dr. Don Tuggener](https://www.zhaw.ch/en/about-us/person/tuge/)
+
 ### Research Assistant under the Supervision of [Dr. Bahrak](https://profile.ut.ac.ir/en/~bahrak)
 
 - Learned about complex networks, carried out multiple projects in this field, and read related papers, including surveys on analysis of the network of Twitter users.

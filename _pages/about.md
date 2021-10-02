@@ -13,10 +13,10 @@ redirect_from:
 
 Welcome to my page
 
-I am Zhivar Sourati, A senior Computer Engineering student at the University of Tehran, and I work as a research assistant under the supervision of [Dr. Bahrak](https://ece.ut.ac.ir/en/~bahrak) at the Data Analytics Lab located at the University of Tehran.
+I am Zhivar Sourati, a research intern at [SpinningBytes AG](https://spinningbytes.com/) under the supervision of [Dr. Don Tuggener](https://www.zhaw.ch/en/about-us/person/tuge/). Also, before that, I was a research assistant under the supervision of [Dr. Bahrak](https://ece.ut.ac.ir/en/~bahrak) at the Data Analytics Lab located at the University of Tehran.
 
 
-My research interest covers many areas such as **Social Network Analysis**, **Natural Language Processing**, **Statistical Inference**, and **Reinforcement Learning**. Currently, I’m studying **non-parametric** approaches in hypothesis testing and **permutation tests** in **complex networks**. I’m generally interested in solving machine learning and statistical learning problems that overlap with **economics** and **social sciences**.
+My research interest covers many areas such as **Social Network Analysis**, **Natural Language Processing**, **Statistical Inference**, and **Reinforcement Learning**. Currently, I’m studying **non-parametric** approaches in hypothesis testing and **permutation tests** in **complex networks** and also **dialogue summarization**. I’m generally interested in solving machine learning and statistical learning problems that overlap with **economics** and **social sciences**.
 
 
-Also, I’m finishing my bachelor's studies and looking for Ph.D. (or M.Sc.) positions.
+Also, I’ve recently finished my bachelor’s studies, and I'm looking for Ph.D. (or M.Sc.) positions.
