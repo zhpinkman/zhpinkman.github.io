@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhivar Sourati"
 title_separator          : "-"
 name                     : &name "Zhivar Sourati"
-description              : &description "NLP Research intern in [Centre for Artificial Intelligence](https://www.zhaw.ch/en/engineering/institutes-centres/cai/) at [Zurich University of Applied Sciences](https://www.zhaw.ch/en/university/)"
+description              : &description "NLP Research intern in Centre for Artificial Intelligence at Zurich University of Applied Sciences"
 url                      : https://zhpinkman.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhpinkman/zhpinkman.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zhivar Sourati"
   avatar           : "profile.jpg"
-  bio              : "NLP Research intern in [Centre for Artificial Intelligence](https://www.zhaw.ch/en/engineering/institutes-centres/cai/) at [Zurich University of Applied Sciences](https://www.zhaw.ch/en/university/)"
+  bio              : "NLP Research intern in Centre for Artificial Intelligence at Zurich University of Applied Sciences"
   # location         : ""
   employer         :
   pubmed           : 
