@@ -22,4 +22,10 @@ redirect_from:
 
 [Spatial and Temporal Sentiment Analysis of Twitter data](https://www.jstor.org/stable/j.ctv3t5r09.20?seq=1#metadata_info_tab_contents)
 
+[NLP's ImageNet moment has arrived](https://ruder.io/nlp-imagenet/)
+
+[Psychological Mechanisms Involved in Radicalization and Extremism. A Rational Emotive Behavioral Conceptualization](https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00437/full)
+
+
+
 ### To Read
