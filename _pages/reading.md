@@ -20,4 +20,6 @@ redirect_from:
 
 [#FailedRevolutions: Using Twitter to study the antecedents of ISIS support](https://firstmonday.org/ojs/index.php/fm/article/view/6372)
 
+[Spatial and Temporal Sentiment Analysis of Twitter data](https://www.jstor.org/stable/j.ctv3t5r09.20?seq=1#metadata_info_tab_contents)
+
 ### To Read
