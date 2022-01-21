@@ -14,4 +14,8 @@ redirect_from:
 
 [A Gentle Introduction to Graph Neural Networks (Basics, DeepWalk, and GraphSage)](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3)
 
+[Unsupervised User Stance Detection on Twitter](https://arxiv.org/abs/1904.02000)
+
+[Discovering Topical Interactions in Text-based Cascades using Hidden Markov Hawkes Processes](https://youtu.be/cGGj6B7YWGY)
+
 ### To Read
