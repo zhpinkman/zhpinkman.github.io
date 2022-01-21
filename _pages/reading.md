@@ -9,6 +9,6 @@ redirect_from:
 
 ### Reading List
 
-[https://hawkeslib.readthedocs.io/en/latest/tutorial.html](Hawkes Process)
+[Hawkes Process](https://hawkeslib.readthedocs.io/en/latest/tutorial.html)
 
 ### To Read
