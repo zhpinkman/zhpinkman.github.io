@@ -9,6 +9,7 @@ redirect_from:
 
 ### Reading List
 
+[BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis](https://arxiv.org/abs/1904.02232)
 
 [Hawkes Process](https://hawkeslib.readthedocs.io/en/latest/tutorial.html)
 
