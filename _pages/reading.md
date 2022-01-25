@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Target-dependent twitter sentiment classification with rich automatic features](https://dl.acm.org/doi/10.5555/2832415.2832437)
+
 [BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis](https://arxiv.org/abs/1904.02232)
 
 [Hawkes Process](https://hawkeslib.readthedocs.io/en/latest/tutorial.html)
