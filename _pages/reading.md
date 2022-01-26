@@ -9,6 +9,10 @@ redirect_from:
 
 ### Reading List
 
+[In NLP, why do we use perplexity instead of the loss?](https://www.quora.com/In-NLP-why-do-we-use-perplexity-instead-of-the-loss)
+
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+
 [Target-dependent twitter sentiment classification with rich automatic features](https://dl.acm.org/doi/10.5555/2832415.2832437)
 
 [BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis](https://arxiv.org/abs/1904.02232)
