@@ -9,6 +9,10 @@ redirect_from:
 
 ### Reading List
 
+[Modeling Science: Dynamic Topic Models of Scholarly Research](https://www.youtube.com/watch?v=7BMsuyBPx90)
+
+[Dynamic Topic Models](https://markroxor.github.io/gensim/static/notebooks/ldaseqmodel.html)
+
 [In NLP, why do we use perplexity instead of the loss?](https://www.quora.com/In-NLP-why-do-we-use-perplexity-instead-of-the-loss)
 
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
