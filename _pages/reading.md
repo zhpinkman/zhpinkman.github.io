@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Four ways to quantify synchrony between time series data](https://towardsdatascience.com/four-ways-to-quantify-synchrony-between-time-series-data-b99136c4a9c9)
+
 [Modeling Science: Dynamic Topic Models of Scholarly Research](https://www.youtube.com/watch?v=7BMsuyBPx90)
 
 [Dynamic Topic Models](https://markroxor.github.io/gensim/static/notebooks/ldaseqmodel.html)
