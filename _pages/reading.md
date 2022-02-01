@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Commonsense Reasoning for Natural Language Processing Lecture - Dr. Vered Shwartz](https://www.youtube.com/watch?v=InIffoMnV7k)
+
 [Four ways to quantify synchrony between time series data](https://towardsdatascience.com/four-ways-to-quantify-synchrony-between-time-series-data-b99136c4a9c9)
 
 [Modeling Science: Dynamic Topic Models of Scholarly Research](https://www.youtube.com/watch?v=7BMsuyBPx90)
