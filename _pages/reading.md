@@ -9,6 +9,10 @@ redirect_from:
 
 ### Reading List
 
+[Docker Tutorial](https://www.youtube.com/watch?v=pTFZFxd4hOI)
+
+[How to Build Slim Docker Images Fast](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7)
+
 [Commonsense Reasoning for Natural Language Processing Lecture - Dr. Vered Shwartz](https://www.youtube.com/watch?v=InIffoMnV7k)
 
 [Four ways to quantify synchrony between time series data](https://towardsdatascience.com/four-ways-to-quantify-synchrony-between-time-series-data-b99136c4a9c9)
