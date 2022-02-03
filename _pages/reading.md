@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[FastAPI — authentication revisited: Enabling API key authentication](https://medium.com/data-rebels/fastapi-authentication-revisited-enabling-api-key-authentication-122dc5975680)
+
 [Docker Tutorial](https://www.youtube.com/watch?v=pTFZFxd4hOI)
 
 [How to Build Slim Docker Images Fast](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7)
