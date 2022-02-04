@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Story Generation with Commonsense Knowledge Graphs and Axioms](https://openreview.net/forum?id=WnIpeFJgSZy)
+
 [Knowledge distillation](https://en.wikipedia.org/wiki/Knowledge_distillation)
 
 [FastAPI — authentication revisited: Enabling API key authentication](https://medium.com/data-rebels/fastapi-authentication-revisited-enabling-api-key-authentication-122dc5975680)
