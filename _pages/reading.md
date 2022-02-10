@@ -9,6 +9,12 @@ redirect_from:
 
 ### Reading List
 
+[Neural Relation Extraction on Wikipedia Tables](https://sites.ualberta.ca/~denilson/neural-relation-extraction-on-wikipedia-tables.html)
+
+[Going Beyond Infoboxes to Extract Information from Wikipedia](https://sites.ualberta.ca/~denilson/going-beyond-infoboxes-to-extract-information-from-wikipedia.html)
+
+[Semantic Understanding of Relational Data on the Web](https://sites.ualberta.ca/~denilson/semantic-understanding-of-relational-data-on-the-web.html)
+
 [Story Generation with Commonsense Knowledge Graphs and Axioms](https://openreview.net/forum?id=WnIpeFJgSZy)
 
 [Knowledge distillation](https://en.wikipedia.org/wiki/Knowledge_distillation)
