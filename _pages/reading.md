@@ -62,3 +62,5 @@ redirect_from:
 ### To Read
 
 [Do You Trust in Aspect-Based Sentiment Analysis? Testing and Explaining Model Behaviors](https://rafalrolczynski.com/2021/03/07/aspect-based-sentiment-analysis/)
+
+[Packaging a python library](https://blog.ionelmc.ro/2014/05/25/python-packaging/)
