@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Writing the Setup Script](https://docs.python.org/3/distutils/setupscript.html)
+
 [Neural Relation Extraction on Wikipedia Tables](https://sites.ualberta.ca/~denilson/neural-relation-extraction-on-wikipedia-tables.html)
 
 [Going Beyond Infoboxes to Extract Information from Wikipedia](https://sites.ualberta.ca/~denilson/going-beyond-infoboxes-to-extract-information-from-wikipedia.html)
