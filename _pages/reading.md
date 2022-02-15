@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Handling Class Imbalance by Introducing Sample Weighting in the Loss Function](https://medium.com/gumgum-tech/handling-class-imbalance-by-introducing-sample-weighting-in-the-loss-function-3bdebd8203b4)
+
 [Writing the Setup Script](https://docs.python.org/3/distutils/setupscript.html)
 
 [Neural Relation Extraction on Wikipedia Tables](https://sites.ualberta.ca/~denilson/neural-relation-extraction-on-wikipedia-tables.html)
