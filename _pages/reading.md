@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[A survey on extractive text summarization](https://ieeexplore.ieee.org/document/7944061)
+
 [A Survey on Automatic Text Summarization Techniques](https://iopscience.iop.org/article/10.1088/1742-6596/2040/1/012044)
 
 [Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)
