@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Latent semantic analysis](https://en.wikipedia.org/wiki/Latent_semantic_analysis)
+
 [A survey on extractive text summarization](https://ieeexplore.ieee.org/document/7944061)
 
 [A Survey on Automatic Text Summarization Techniques](https://iopscience.iop.org/article/10.1088/1742-6596/2040/1/012044)
