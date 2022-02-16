@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)
+
 [Handling Class Imbalance by Introducing Sample Weighting in the Loss Function](https://medium.com/gumgum-tech/handling-class-imbalance-by-introducing-sample-weighting-in-the-loss-function-3bdebd8203b4)
 
 [Writing the Setup Script](https://docs.python.org/3/distutils/setupscript.html)
