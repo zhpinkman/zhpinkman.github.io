@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[GIT – How to push code to multiple remotes simultaneously](https://howto.lintel.in/git-how-to-push-code-to-multiple-remotes-simultaneously/)
+
 [Text summarization using Latent Semantic Analysis](https://www.researchgate.net/publication/220195824_Text_summarization_using_Latent_Semantic_Analysis)
 
 [Latent semantic analysis](https://en.wikipedia.org/wiki/Latent_semantic_analysis)
