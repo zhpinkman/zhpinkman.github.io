@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Transformers-based Encoder-Decoder Models](https://huggingface.co/blog/encoder-decoder#encoder-decoder)
+
 [GIT – How to push code to multiple remotes simultaneously](https://howto.lintel.in/git-how-to-push-code-to-multiple-remotes-simultaneously/)
 
 [Text summarization using Latent Semantic Analysis](https://www.researchgate.net/publication/220195824_Text_summarization_using_Latent_Semantic_Analysis)
