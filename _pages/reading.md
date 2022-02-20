@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Keyphrase Generation Beyond the Boundaries of Title and Abstract](https://arxiv.org/abs/2112.06776)
+
 [Transformers-based Encoder-Decoder Models](https://huggingface.co/blog/encoder-decoder#encoder-decoder)
 
 [GIT – How to push code to multiple remotes simultaneously](https://howto.lintel.in/git-how-to-push-code-to-multiple-remotes-simultaneously/)
