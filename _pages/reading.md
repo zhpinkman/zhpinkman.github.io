@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Sentence Centrality Revisited for Unsupervised Summarization](https://aclanthology.org/P19-1628/)
+
 [Keyphrase Generation Beyond the Boundaries of Title and Abstract](https://arxiv.org/abs/2112.06776)
 
 [Transformers-based Encoder-Decoder Models](https://huggingface.co/blog/encoder-decoder#encoder-decoder)
