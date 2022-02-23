@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[AVERAGE and MAX word embedding for LONG sentences](AVERAGE and MAX word embedding for LONG sentences)
+
 [Sentence Embedding Techniques](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
 
 [Abstractive Text Summarization Using RoBERTa](https://anubhav20057.medium.com/step-by-step-guide-abstractive-text-summarization-using-roberta-e93978234a90)
