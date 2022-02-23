@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Sentence Embedding Techniques](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
+
 [Abstractive Text Summarization Using RoBERTa](https://anubhav20057.medium.com/step-by-step-guide-abstractive-text-summarization-using-roberta-e93978234a90)
 
 [Text Summarization using Textrank in Nlp](https://medium.com/data-science-in-your-pocket/text-summarization-using-textrank-in-nlp-4bce52c5b390)
