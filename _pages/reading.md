@@ -9,7 +9,7 @@ redirect_from:
 
 ### Reading List
 
-[AVERAGE and MAX word embedding for LONG sentences](AVERAGE and MAX word embedding for LONG sentences)
+[AVERAGE and MAX word embedding for LONG sentences](https://towardsdatascience.com/how-to-do-average-and-max-word-embedding-for-long-sentences-f3531e99d998)
 
 [Sentence Embedding Techniques](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
 
