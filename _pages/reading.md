@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
+
 [AVERAGE and MAX word embedding for LONG sentences](https://towardsdatascience.com/how-to-do-average-and-max-word-embedding-for-long-sentences-f3531e99d998)
 
 [Sentence Embedding Techniques](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
