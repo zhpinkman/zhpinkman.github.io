@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[hawkeslib](https://hawkeslib.readthedocs.io/en/latest/index.html)
+
 [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
 
 [AVERAGE and MAX word embedding for LONG sentences](https://towardsdatascience.com/how-to-do-average-and-max-word-embedding-for-long-sentences-f3531e99d998)
