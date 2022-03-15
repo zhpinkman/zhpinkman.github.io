@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Every Pandas Function You Can (Should) Use to Manipulate Time Series](https://towardsdatascience.com/every-pandas-function-you-can-should-use-to-manipulate-time-series-711cb0c5c749)
+
 [hawkeslib](https://hawkeslib.readthedocs.io/en/latest/index.html)
 
 [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
