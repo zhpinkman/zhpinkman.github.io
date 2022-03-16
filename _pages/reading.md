@@ -9,6 +9,8 @@ redirect_from:
 
 ### Reading List
 
+[Understanding Auto Regressive Moving Average Model — ARIMA](https://medium.com/fintechexplained/understanding-auto-regressive-model-arima-4bd463b7a1bb)
+
 [Every Pandas Function You Can (Should) Use to Manipulate Time Series](https://towardsdatascience.com/every-pandas-function-you-can-should-use-to-manipulate-time-series-711cb0c5c749)
 
 [hawkeslib](https://hawkeslib.readthedocs.io/en/latest/index.html)
