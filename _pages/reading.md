@@ -9,7 +9,9 @@ redirect_from:
 
 ### Reading List
 
-[All You Need to Know about Gradient Boosting Algorithm − Part 1. Regression](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+[All You Need to Know about Gradient Boosting Algorithm − Classification](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)
+
+[All You Need to Know about Gradient Boosting Algorithm − Regression](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
 
 [Understanding Auto Regressive Moving Average Model — ARIMA](https://medium.com/fintechexplained/understanding-auto-regressive-model-arima-4bd463b7a1bb)
 
