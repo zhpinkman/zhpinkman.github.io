@@ -10,7 +10,7 @@ main:
   - title: "Transcript"
     url: /transcript/
 
-  - title: "Reading List"
-    url: /reading/
+  # - title: "Reading List"
+  #   url: /reading/
 
   
