@@ -6,6 +6,6 @@ author_profile: true
 ---
 
 - Setayesh, A., Sourati Hassanzadeh, Z., &; Bahrak, B. (2022). Analysis of the Global Trade Network 2011 using ERGM. _Applied Network Science._ (under review)
-- Sourati Hassanzadeh, Z., Sabri, N., Chamani, H., &; Bahrak, B. (2021). Quantitative Analysis of Fanfictions’ Popularity. _Social Network Analysis and Mining._(recently accepted for publication)
-- Chamani, H., Sourati Hassanzadeh, Z., &; Bahrak, B. (2021). An Overview of Regression Methods in Early Prediction of Movie Ratings. _ICCKE2021._ (recently accepted)
+- Sourati Hassan Zadeh, Z., Sabri, N., Chamani, H. _et al._ Quantitative analysis of fanfictions’ popularity. _Soc. Netw. Anal. Min._ 12, 42 (2022). https://doi.org/10.1007/s13278-021-00854-9
+- H. Chamani, Z. S. H. Zadeh and B. Bahrak, "An Overview of Regression Methods in Early Prediction of Movie Ratings," _2021 11th International Conference on Computer Engineering and Knowledge (ICCKE)_, 2021, pp. 1-6, doi: 10.1109/ICCKE54056.2021.9721453.
 - Shabani, T., Chamani, H., Tavakoli, S., Sourati Hassanzadeh, Z. &; Bahrak, B. (2021). Topic modeling of Persian tweets during the Covid-19 pandemic. (under preparation)
