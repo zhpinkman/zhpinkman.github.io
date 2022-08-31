@@ -13,10 +13,9 @@ redirect_from:
 
 Welcome to my page
 
-I am Zhivar Sourati, an NLP research assistant in [Centre for Artificial Intelligence](https://www.zhaw.ch/en/engineering/institutes-centres/cai/) at [Zurich University of Applied Sciences](https://www.zhaw.ch/en/university/) under the supervision of [Prof. Mark Cieliebak](https://www.zhaw.ch/en/about-us/person/ciel/) and [Dr. Don Tuggener](https://www.zhaw.ch/en/about-us/person/tuge/). Also, before that, I was a research assistant under the supervision of [Dr. Bahrak](https://ece.ut.ac.ir/en/~bahrak) at the Data Analytics Lab located at the University of Tehran.
 
-My research interest covers many areas such as **Social Network Analysis**, **Natural Language Processing**, **Statistical Inference**, **Knowledge Graphs**, and **Data Mining**. 
+I am Zhivar Sourati, a graduate research assistant in Information Science Institute at University of Southern California under the supervision of Dr. Filip Ilievski. Also before that, I was an NLP research intern at Zurich University of Applied Sciences under Dr. Don Tuggener and Dr. Mark Cieliebak working on Dialogue Summarization. The first experience that I had as a research assistant was also working on permutation tests, complex networks, and machine learning applications under the supervision of Dr. Behnam Bahrak.
 
-Currently working on hate speech analysis in social networks, and different dialogue summarization approaches, such as graph-based and unsupervised ones using BART, KEYBERT, and other transformer models. Plus, developing an API that provides the mentioned functionalities and more as separate endpoints for extracting the most important sections of a meeting.
+My research interest covers many areas such as Commonsense Reasoning, Natural Language Processing, Statistical Inference, Knowledge Graphs, and Data Mining. 
 
-Also, I'm generally interested in solving machine learning and statistical learning problems that overlap with economics and social sciences.
+Also, I'm generally interested in solving machine learning and statistical learning problems that overlap with economic, psychology and social sciences.
