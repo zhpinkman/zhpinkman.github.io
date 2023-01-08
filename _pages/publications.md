@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 - Sourati, Z., Priya, V., Deshpande, D., Rawlani, H., Ilievski, F., Sandlin, H.-Â., & Mermoud, A. (2022). Robust and Explainable Identification of Logical Fallacies in Natural Language Arguments.(under review)
-- Thakur, A., Ilievski, F., Sandlin, H., Mermoud, A., Sourati, Z., Luceri, L., \& Tommasini, R. (2022). Multimodal and Explainable Internet Meme Classification. (recently accepted)
+- Thakur, A., Ilievski, F., Sandlin, H., Mermoud, A., Sourati, Z., Luceri, L., & Tommasini, R. (2022). Multimodal and Explainable Internet Meme Classification. (recently accepted)
 - Shabani, T., Chamani, H., Sourati, Z. & Bahrak, B. (2022). A Large‑Scale Analysis of Persian Tweets Regarding
 Covid‑19 Vaccination. (under review)
 - Sourati, Z., Sabri, N., Chamani & Bahrak, B. (2022). Quantitative analysis of fanfictions’ popularity. _Soc. Netw. Anal. Min._ 12, 42. https://doi.org/10.1007/s13278-021-00854-9
