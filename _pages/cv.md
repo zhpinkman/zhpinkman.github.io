@@ -8,5 +8,5 @@ redirect_from:
 ---
 
 
-<embed src="/files/ZhivarSourati_CV.pdf" width="100%" height="100%" type="application/pdf">
+<embed src="/files/ZhivarSourati_Resume.pdf" width="100%" height="100%" type="application/pdf">
 
