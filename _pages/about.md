@@ -14,7 +14,7 @@ redirect_from:
 Welcome to my page
 
 
-I am Zhivar Sourati, a graduate research assistant in Information Science Institute (ISI) at University of Southern California (USC) advised by Dr. Filip Ilievski focusing on knowledge graphs and commonsense reasoning. Before joining USC, I was an NLP research intern at Zurich University of Applied Sciences collaborating with Dr. Don Tuggener and Dr. Mark Cieliebak working on Dialogue Summarization. The first experience that I had as a research assistant was also working on permutation tests, complex networks, and machine learning applications in a team supervised by Dr. Behnam Bahrak.
+I am Zhivar Sourati, a graduate research assistant in Information Science Institute (ISI) at University of Southern California (USC) advised by Dr. Filip Ilievski focusing on knowledge graphs, commonsense reasoning, and analogical reasoning. Before joining USC, I was an NLP research intern at Zurich University of Applied Sciences collaborating with Dr. Don Tuggener and Dr. Mark Cieliebak working on Dialogue Summarization. The first experience that I had as a research assistant was also working on permutation tests, complex networks, and machine learning applications in a team supervised by Dr. Behnam Bahrak.
 
 My research interest covers many areas such as Knowledge Graphs, Social Network Analysis, Natural Language Processing, Statistical Inference, and Data Mining. 
 
