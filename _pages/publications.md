@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-- Sourati, Z., Ilievski, F., Sandlin, H.-Â., & Mermoud, A. (2023). Case-Based Reasoning with Language Models for Classification of Logical Fallacies. (Under review)
+- Sourati, Z., Ilievski, F., Sandlin, H.-Â., & Mermoud, A. (2023). Case-Based Reasoning with Language Models for Classification of Logical Fallacies. (Accepted at IJCAI-23)
 - Sourati, Z., Priya, V., Deshpande, D., Rawlani, H., Ilievski, F., Sandlin, H.-Â., & Mermoud, A. (2023). Robust and Explainable Identification of Logical Fallacies in Natural Language Arguments. (Published at KBS)
 - Thakur, A., Ilievski, F., Sandlin, H., Mermoud, A., Sourati, Z., Luceri, L., & Tommasini, R. (2023). Multimodal and Explainable Internet Meme Classification. (Published at AAAI-23)
 - Shabani Mirzaei, T., Chamani, H., Sourati, Z. & Bahrak, B. (2022). A Large‑Scale Analysis of Persian Tweets Regarding Covid‑19 Vaccination. (Under review)
