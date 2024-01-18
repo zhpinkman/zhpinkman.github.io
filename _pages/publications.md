@@ -5,7 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-- Sourati, Z., McDaniel, C., Ozcan, M., Wen, N., Ziabari, A., Tak, A., & Morstatter, F. (2023). Does ChatGPT Hide Linguistic Signatures of Psychological Traits? (Under preparation)
+- Ahrabian, K., Sourati, Z., Sun, K., Zhang, J., Jiang, Y., Morstatter, F., & Pujara, J. (2024). The Curious Case of Nonverbal Abstract Reasoning with Multi-Modal Large Language Models. (Under preparation)
+- Sourati, Z., McDaniel, C., Ozcan, M., Wen, N., Ziabari, A., Tak, A., Morstatter, & F. Dehghani, M. (2024). Does ChatGPT Hide Linguistic Signatures of Psychological Traits? (Under preparation)
 - Sourati, Z., Ilievski, F., & Sommerauer, P. (2023). ARN: A Comprehensive Framework and Dataset for Analogical Reasoning on Narratives. arXiv preprint arXiv:2310.00996. (Under review)
 - Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2023). Contextualizing Argument Quality Assessment with Relevant Knowledge. arXiv preprint arXiv:2305.12280. (Under review)
 - Sourati, Z., Deshpande, D., Ilievski, F., Gashteovski, K., & Saralajew, S. (2023). Robust Text Classification: Analyzing Prototype-Based Networks. arXiv preprint arXiv:2311.06647. (Under review)
