@@ -5,12 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
--	Sourati, Z., Ozcan, M., McDaniel, C., Ziabari, A., Wen, N., Tak, A., Morstatter, F., & Dehghani, M. (2024). Secret Keepers: The Impact of LLMs on Linguistic Markers of Personal Traits. arXiv preprint arXiv:2404.00267. (Under review)
+-	Sourati, Z., Ozcan, M., Karimi, F., McDaniel, C., Ziabari, A., Trager, J., Wen, N., Tak, A., Morstatter, F., & Dehghani, M. (2024). Secret Keepers: The Impact of LLMs on Linguistic Markers of Personal Traits. arXiv preprint arXiv:2404.00267. (Under review)
 -	Ahrabian, K., Sourati, Z., Sun, K., Zhang, J., Jiang, Y., Morstatter, F., & Pujara, J. (2024). The Curious Case of Nonverbal Abstract Reasoning with Multi-Modal Large Language Models. arXiv preprint arXiv:2401.12117. (Accepted to COLM 2024)
--	Jiang, Y., Zhang, J., Sun, K., Sourati, Z., Ahrabian, K., Ma, K., ... & Pujara, J. (2024). MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning. arXiv preprint arXiv:2404.13591. (Under review)
+-	Jiang, Y., Zhang, J., Sun, K., Sourati, Z., Ahrabian, K., Ma, K., ... & Pujara, J. (2024). MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning. arXiv preprint arXiv:2404.13591. (Accepted to NeurIPS 2024)
 -	Sourati, Z., Ilievski, F., & Sommerauer, P. (2024). ARN: A Comprehensive Framework and Dataset for Analogical Reasoning on Narratives. arXiv preprint arXiv:2310.00996. (Accepted to TACL) 
 -	Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2024). Contextualizing Argument Quality Assessment with Relevant Knowledge. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers), pages 316–326, Mexico City, Mexico. Association for Computational Linguistics.
--	Sourati, Z., Deshpande, D., Ilievski, F., Gashteovski, K., & Saralajew, S. (2024). Robust Text Classification: Analyzing Prototype-Based Networks. arXiv preprint arXiv:2311.06647. (Under review)
+-	Sourati, Z., Deshpande, D., Ilievski, F., Gashteovski, K., & Saralajew, S. (2024). Robust Text Classification: Analyzing Prototype-Based Networks. arXiv preprint arXiv:2311.06647. (Accepted to EMNLP 2024)
 -	Jiang, Y., Ilievski, F., Ma, K., & Sourati, Z. (2023). BRAINTEASER: Lateral Thinking Puzzles for Large Language Models. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 14317–14332, Singapore. Association for Computational Linguistics.
 -	Thakur, A. K., Ilievski, F., Sandlin, H. Â., Sourati, Z., Luceri, L., Tommasini, R., & Mermoud, A. (2023). Explainable Classification of Internet Memes. In NeSy (pp. 395-409). 
 -	Sourati, Z., Ilievski, F., Sandlin, H.-Â., & Mermoud, A. (2023). Case-based reasoning with language models for classification of logical fallacies. In Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, IJCAI ’23.
