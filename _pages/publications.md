@@ -5,7 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
--	Sourati, Z., Ozcan, M., Karimi, F., McDaniel, C., Ziabari, A., Trager, J., Wen, N., Tak, A., Morstatter, F., & Dehghani, M. (2024). Secret Keepers: The Impact of LLMs on Linguistic Markers of Personal Traits. arXiv preprint arXiv:2404.00267. (Under review)
+-	Sourati, Z., Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models. arXiv preprint arXiv:2502.11266. (Under consideration)
+-	Ziabari, A. S., Ghazizadeh, N., Sourati, Z., Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2025). Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking. arXiv preprint arXiv:2502.12470. (Under consideration)
+-	Sourati, Z., Ozcan, M., Karimi, F., McDaniel, C., Ziabari, A., Trager, J., Wen, N., Tak, A., Morstatter, F., & Dehghani, M. (2024). Secret Keepers: The Impact of LLMs on Linguistic Markers of Personal Traits. arXiv preprint arXiv:2404.00267.
 -	Ahrabian, K., Sourati, Z., Sun, K., Zhang, J., Jiang, Y., Morstatter, F., & Pujara, J. (2024). The Curious Case of Nonverbal Abstract Reasoning with Multi-Modal Large Language Models. arXiv preprint arXiv:2401.12117. (Accepted to COLM 2024)
 -	Jiang, Y., Zhang, J., Sun, K., Sourati, Z., Ahrabian, K., Ma, K., ... & Pujara, J. (2024). MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning. arXiv preprint arXiv:2404.13591. (Accepted to NeurIPS 2024)
 -	Sourati, Z., Ilievski, F., & Sommerauer, P. (2024). ARN: A Comprehensive Framework and Dataset for Analogical Reasoning on Narratives. arXiv preprint arXiv:2310.00996. (Accepted to TACL) 
