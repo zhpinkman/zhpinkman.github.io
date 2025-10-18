@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
+-   Sourati, Z., Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2025). LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding. arXiv preprint arXiv:2510.07233. (Under review)
 -   Sourati, Z., Ziabari, A. S., & Dehghani, M. (2025). The Homogenizing Effect of Large Language Models on Human Expression and Thought. arXiv preprint arXiv:2508.01491. (Under review)
 -	Sourati, Z., Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models. arXiv preprint arXiv:2502.11266. (Under review)
 -	Ziabari, A. S., Ghazizadeh, N., Sourati, Z., Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2025). Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking. arXiv preprint arXiv:2502.12470. (Under review)
