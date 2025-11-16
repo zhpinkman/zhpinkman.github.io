@@ -4,13 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
--   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2025). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) arXiv:2510.07233 (Under review)
+-   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2025). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) (Under review in ARR)
 
--   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2025). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://arxiv.org/abs/2508.01491) arXiv:2508.01491 (Under review in TICS)
+-   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2025). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://arxiv.org/abs/2508.01491) (Under review in TICS)
 
--   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://arxiv.org/abs/2502.11266) arXiv:2502.11266 (Under review in Nature Human Behaviour)
+-   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://arxiv.org/abs/2502.11266) (Under review in Nature Human Behaviour)
 
--   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2025). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) arXiv:2502.12470 (Under review in ICLR)
+-   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2025). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) (Under review in ICLR)
 
 
 -   Ahrabian, K.\*, **Sourati, Z.\***, Sun, K., Zhang, J., Jiang, Y., Morstatter, F., & Pujara, J. (2024). [*The Curious Case of Nonverbal Abstract Reasoning with Multi-Modal Large Language Models.*](https://arxiv.org/abs/2401.12117) (Accepted to COLM 2024)
