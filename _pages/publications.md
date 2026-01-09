@@ -5,9 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
--   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). *The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage* (Under review)
+-   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). *The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage* (Under review in ARR)
 
--   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review)
+-   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review in ARR)
 
 -   Daryani, Y., **Sourati, Z.**, & Dehghani, M. (2025). [*The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy.*](https://doi.org/10.1177/23727322251406591) Policy Insights from the Behavioral and Brain Sciences, 23727322251406591.
 
