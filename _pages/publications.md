@@ -4,6 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+-   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). *The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage* (Under review)
+
+-   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review)
+
+-   Daryani, Y., **Sourati, Z.**, & Dehghani, M. (2025). [*The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy.*](https://doi.org/10.1177/23727322251406591) Policy Insights from the Behavioral and Brain Sciences, 23727322251406591.
+
 -   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2025). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) (Under review in ARR)
 
 -   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2025). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://arxiv.org/abs/2508.01491) (Under review in TICS)
