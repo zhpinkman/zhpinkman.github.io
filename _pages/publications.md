@@ -5,15 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
--   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). *The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage* (Under review in ARR)
+-   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). *The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage* (Accepted to ACL 2026)
 
 -   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review in ARR)
 
--   Daryani, Y., **Sourati, Z.**, & Dehghani, M. (2025). [*The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy.*](https://doi.org/10.1177/23727322251406591) Policy Insights from the Behavioral and Brain Sciences, 23727322251406591.
+-   Daryani, Y., **Sourati, Z.**, & Dehghani, M. (2025). [*The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy.*](https://doi.org/10.1177/23727322251406591) (Accepted to Policy Insights from the Behavioral and Brain Sciences)
 
--   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2025). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) (Under review in ARR)
+-   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2026). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) (Accepted to ACL 2026)
 
--   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2025). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://arxiv.org/abs/2508.01491) (Under review in TICS)
+-   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2026). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(26)00003-3) (Accepted to Trends in Cognitive Sciences)
 
 -   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://arxiv.org/abs/2502.11266) (Under review in Nature Human Behaviour)
 
