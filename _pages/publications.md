@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
--   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). *The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage* (Accepted to ACL 2026)
+-   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). [*The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage*](https://arxiv.org/abs/2602.10339) (Accepted to ACL 2026)
 
 -   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review in ARR)
 
