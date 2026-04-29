@@ -15,7 +15,7 @@ author_profile: true
 
 -   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2026). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(26)00003-3) (Accepted to Trends in Cognitive Sciences)
 
--   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://arxiv.org/abs/2502.11266) (Under review in Nature Human Behaviour)
+-   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://arxiv.org/abs/2502.11266) (Accepted to Nature Human Behaviour)
 
 -   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2025). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) (Under review in ICLR)
 
