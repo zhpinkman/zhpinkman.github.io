@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding</title>
+  <meta name="description" content="LAD-RAG builds layout-aware document graphs and dynamic retrieval agents for visually rich document understanding." />
+  <meta name="keywords" content="LAD-RAG, document understanding, retrieval augmented generation, visually rich documents, layout-aware RAG, multimodal RAG" />
+  <meta name="author" content="Zhivar Sourati, Zheng Wang, Marianne Menglin Liu, Yazhe Hu, Mengqing Guo, Sujeeth Bharadwaj, Kyu Han, Tao Sheng, Sujith Ravi, Morteza Dehghani, Dan Roth" />
+
+  <meta property="og:title" content="LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding" />
+  <meta property="og:description" content="A layout-aware dynamic RAG framework for complete, question-adaptive retrieval over visually rich documents." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://zhpinkman.github.io/lad-rag/" />
+  <meta property="og:image" content="https://zhpinkman.github.io/lad-rag/static/images/ladrag-overview.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LAD-RAG" />
+  <meta name="twitter:description" content="Layout-aware Dynamic RAG for Visually-Rich Document Understanding" />
+
+  <meta name="citation_title" content="LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding" />
+  <meta name="citation_author" content="Sourati, Zhivar" />
+  <meta name="citation_author" content="Wang, Zheng" />
+  <meta name="citation_author" content="Liu, Marianne Menglin" />
+  <meta name="citation_author" content="Hu, Yazhe" />
+  <meta name="citation_author" content="Guo, Mengqing" />
+  <meta name="citation_author" content="Bharadwaj, Sujeeth" />
+  <meta name="citation_author" content="Han, Kyu" />
+  <meta name="citation_author" content="Sheng, Tao" />
+  <meta name="citation_author" content="Ravi, Sujith" />
+  <meta name="citation_author" content="Dehghani, Morteza" />
+  <meta name="citation_author" content="Roth, Dan" />
+  <meta name="citation_publication_date" content="2026" />
+  <meta name="citation_conference_title" content="ACL 2026" />
+  <meta name="citation_arxiv_id" content="2510.07233" />
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2510.07233.pdf" />
+
+  <link rel="icon" href="static/images/favicon.ico" />
+  <link rel="stylesheet" href="static/css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+
+  <style>
+    :root {
+      --ladrag-green: #2e7d55;
+      --ladrag-green-soft: #eaf7ef;
+      --ladrag-blue: #2563eb;
+      --ladrag-deep: #203040;
+      --ladrag-muted: #5e6c7d;
+      --ladrag-border: #dbe5ef;
+      --ladrag-bg: #f7fafc;
+      --ladrag-gold: #b7791f;
+      --ladrag-red: #b33434;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(180deg, #ffffff 0%, var(--ladrag-bg) 54%, #ffffff 100%);
+      color: var(--ladrag-deep);
+      font-family: "Noto Sans", sans-serif;
+      overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    .container.is-max-desktop {
+      max-width: min(960px, calc(100vw - 2rem)) !important;
+      width: auto !important;
+    }
+
+    .title,
+    .publication-title {
+      font-family: "Google Sans", sans-serif;
+    }
+
+    .section {
+      padding-top: 1.15rem !important;
+      padding-bottom: 1.15rem !important;
+    }
+
+    .header-logos {
+      padding: 1rem 0 0.25rem;
+    }
+
+    .logos-row {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      justify-content: center;
+    }
+
+    .header-logo {
+      display: block;
+      height: 40px;
+      max-width: min(220px, 44vw);
+      object-fit: contain;
+      width: auto;
+    }
+
+    .header-separator {
+      background: #d5dbe5;
+      height: 36px;
+      width: 1px;
+    }
+
+    .publication-title {
+      color: var(--ladrag-deep);
+      font-size: clamp(1.45rem, 4vw, 2.35rem) !important;
+      line-height: 1.16;
+      overflow-wrap: anywhere;
+    }
+
+    .tagline {
+      color: var(--ladrag-muted);
+      font-size: 1.08rem;
+      margin-top: 0.75rem;
+    }
+
+    .publication-authors {
+      font-size: 1.07rem !important;
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+
+    .publication-authors a {
+      color: var(--ladrag-blue);
+      font-weight: 600;
+    }
+
+    .publication-links .button {
+      margin: 0.2rem;
+    }
+
+    .button.is-ladrag {
+      background: var(--ladrag-deep);
+      border-color: var(--ladrag-deep);
+      color: #fff;
+    }
+
+    .button.is-ladrag:hover {
+      background: var(--ladrag-green);
+      border-color: var(--ladrag-green);
+      color: #fff;
+    }
+
+    .section-card {
+      background: #ffffff;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 14px;
+      box-shadow: 0 8px 26px rgba(15, 23, 42, 0.045);
+      overflow-x: auto;
+      padding: 1.15rem;
+    }
+
+    .section-card h2.title {
+      color: var(--ladrag-green);
+      margin-bottom: 0.8rem;
+    }
+
+    .subtle-note {
+      color: var(--ladrag-muted);
+      font-size: 0.96rem;
+    }
+
+    .key-result {
+      background: var(--ladrag-green-soft);
+      border-left: 4px solid var(--ladrag-green);
+      border-radius: 8px;
+      color: #184632;
+      font-weight: 650;
+      margin-top: 1rem;
+      padding: 0.9rem 1rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
+
+    .pill {
+      background: #f2f6fb;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 999px;
+      color: #34485e;
+      font-size: 0.93rem;
+      font-weight: 600;
+      padding: 0.35rem 0.75rem;
+    }
+
+    .metric-grid,
+    .method-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .metric-card,
+    .method-item {
+      background: #f8fbfd;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+
+    .metric-value {
+      color: var(--ladrag-green);
+      display: block;
+      font-size: 1.7rem;
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
+    }
+
+    .method-item h3,
+    .method-item h4 {
+      color: var(--ladrag-deep);
+      margin-bottom: 0.4rem;
+    }
+
+    .figure-wrap {
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+
+    .paper-figure {
+      background: #fff;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 8px;
+      height: auto;
+      max-width: 100%;
+    }
+
+    .figure-caption {
+      color: var(--ladrag-muted);
+      font-style: italic;
+      margin-top: 0.55rem;
+    }
+
+    .compact-table {
+      font-size: 0.94rem;
+      margin-top: 0.8rem;
+    }
+
+    .compact-table th {
+      color: var(--ladrag-deep);
+      white-space: nowrap;
+    }
+
+    .compact-table td,
+    .compact-table th {
+      vertical-align: middle;
+    }
+
+    .good {
+      color: var(--ladrag-green);
+      font-weight: 700;
+    }
+
+    .warn {
+      color: var(--ladrag-gold);
+      font-weight: 700;
+    }
+
+    .danger-soft {
+      color: var(--ladrag-red);
+      font-weight: 700;
+    }
+
+    .bibtex-box {
+      background: #f8fbff;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 8px;
+      color: #25364a;
+      font-family: "Castoro", serif;
+      overflow-x: auto;
+      padding: 1rem;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      color: #64748b;
+      font-size: 0.95rem;
+      padding: 2rem 1rem 2.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .header-separator {
+        display: none;
+      }
+
+      .logos-row {
+        gap: 0.7rem;
+      }
+
+      .header-logo {
+        height: 34px;
+        max-width: 42vw;
+      }
+
+      .hero-body {
+        padding: 2.5rem 1rem 3rem;
+      }
+
+      .publication-title {
+        font-size: 1.45rem !important;
+      }
+
+      .tagline {
+        font-size: 0.98rem;
+      }
+
+      .publication-authors {
+        font-size: 0.98rem !important;
+      }
+
+      .publication-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .section-card {
+        padding: 1rem;
+      }
+
+      .compact-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="header-logos">
+    <div class="container is-max-desktop">
+      <div class="logos-row">
+        <img class="header-logo" src="static/images/acl-2026.png" alt="ACL 2026" />
+        <div class="header-separator"></div>
+        <img class="header-logo" src="static/images/oracle.png" alt="Oracle AI" />
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop has-text-centered">
+        <h1 class="title is-1 publication-title">LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding</h1>
+        <p class="tagline">A layout-aware dynamic retrieval framework for complete evidence gathering over visually rich documents.</p>
+        <p style="margin-top: 0.75rem; font-weight: 700; font-size: 1.18rem; color: var(--ladrag-green);">ACL 2026</p>
+
+        <div class="is-size-5 publication-authors" style="margin-top: 1.1rem;">
+          <span class="author-block"><a href="https://github.com/zhpinkman" target="_blank" rel="noopener">Zhivar Sourati</a><sup>1,2</sup>,</span>
+          <span class="author-block">Zheng Wang<sup>2</sup>,</span>
+          <span class="author-block">Marianne Menglin Liu<sup>2</sup>,</span>
+          <span class="author-block">Yazhe Hu<sup>2</sup>,</span>
+          <span class="author-block">Mengqing Guo<sup>2</sup>,</span>
+          <span class="author-block">Sujeeth Bharadwaj<sup>2</sup>,</span>
+          <span class="author-block">Kyu Han<sup>2</sup>,</span>
+          <span class="author-block">Tao Sheng<sup>2</sup>,</span>
+          <span class="author-block">Sujith Ravi<sup>2</sup>,</span>
+          <span class="author-block">Morteza Dehghani<sup>1</sup>,</span>
+          <span class="author-block"><a href="https://www.cis.upenn.edu/~danroth/" target="_blank" rel="noopener">Dan Roth</a><sup>2,3</sup></span>
+        </div>
+
+        <div class="is-size-5 publication-authors" style="margin-top: 0.45rem;">
+          <span class="author-block"><sup>1</sup>University of Southern California,&nbsp;&nbsp;<sup>2</sup>Oracle AI,&nbsp;&nbsp;<sup>3</sup>University of Pennsylvania</span>
+        </div>
+
+        <div class="publication-links" style="margin-top: 1.2rem;">
+          <a href="static/pdfs/ladrag-paper.pdf" target="_blank" rel="noopener" class="button is-ladrag is-rounded">
+            <span>Paper PDF</span>
+          </a>
+          <a href="https://arxiv.org/abs/2510.07233" target="_blank" rel="noopener" class="button is-light is-rounded">
+            <span>arXiv</span>
+          </a>
+          <a href="#BibTeX" class="button is-light is-rounded">
+            <span>Citation</span>
+          </a>
+          <button class="button is-light is-rounded" title="Code release is pending institutional review" disabled>
+            <span>Code coming soon</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Abstract</h2>
+        <p>
+          Question answering over visually rich documents requires reasoning over not only isolated content, but also layout,
+          document structure, and cross-page dependencies. Conventional RAG pipelines encode pages or chunks independently
+          and retrieve a fixed number of items at inference time, often missing the complete evidence needed for multi-page
+          questions.
+        </p>
+        <p>
+          LAD-RAG addresses this by constructing a symbolic document graph during ingestion and storing it alongside a neural
+          index. At inference time, an LLM agent dynamically interacts with both indices, choosing semantic search,
+          graph-based search, or hybrid retrieval based on the query.
+        </p>
+        <div class="key-result">
+          LAD-RAG achieves over 90% perfect recall on average without top-k tuning and improves retrieval and QA across
+          MMLongBench-Doc, LongDocURL, DUDE, and MP-DocVQA.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Why LAD-RAG?</h2>
+        <p>
+          Visually rich documents contain figures, charts, tables, captions, section boundaries, and page-to-page continuations.
+          These cues are often critical evidence, but they are difficult to recover from a purely embedding-based, fixed top-k
+          retriever.
+        </p>
+        <div class="method-grid">
+          <div class="method-item">
+            <h3 class="title is-5">Layout is evidence</h3>
+            <p>Headers, sections, captions, and visual grouping determine what belongs together.</p>
+          </div>
+          <div class="method-item">
+            <h3 class="title is-5">Evidence is distributed</h3>
+            <p>Answers may require content scattered across figures, tables, and multiple pages.</p>
+          </div>
+          <div class="method-item">
+            <h3 class="title is-5">Top-k is not enough</h3>
+            <p>Different questions require different amounts and kinds of supporting evidence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0.25rem;">
+    <div class="container is-max-desktop">
+      <div class="figure-wrap">
+        <img class="paper-figure" src="static/images/ladrag-overview.png" alt="LAD-RAG motivation and overview figure" />
+        <p class="figure-caption">LAD-RAG complements neural indexing with symbolic document structure and dynamic retrieval.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Method</h2>
+        <p>
+          LAD-RAG has two phases: <strong>layout-aware ingestion</strong> and <strong>dynamic inference-time retrieval</strong>.
+        </p>
+        <div class="method-grid">
+          <div class="method-item">
+            <h3 class="title is-5">1. Element extraction</h3>
+            <p>An LVLM parses each page into self-contained objects: titles, paragraphs, figures, tables, captions, and metadata.</p>
+          </div>
+          <div class="method-item">
+            <h3 class="title is-5">2. Document graph construction</h3>
+            <p>Nodes represent page elements; edges encode section hierarchy, layout relations, references, and cross-page continuity.</p>
+          </div>
+          <div class="method-item">
+            <h3 class="title is-5">3. Neural-symbolic indexing</h3>
+            <p>LAD-RAG stores both a symbolic graph and a neural index over node summaries for complementary retrieval paths.</p>
+          </div>
+          <div class="method-item">
+            <h3 class="title is-5">4. Agentic retrieval</h3>
+            <p>An LLM agent chooses semantic search, graph filtering, or contextualization depending on the question.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0.25rem;">
+    <div class="container is-max-desktop">
+      <div class="figure-wrap">
+        <img class="paper-figure" src="static/images/ladrag-framework.png" alt="LAD-RAG framework diagram" />
+        <p class="figure-caption">Framework overview: offline ingestion builds document representations; inference uses them adaptively.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Case Studies</h2>
+        <p>
+          LAD-RAG is designed for questions where semantic similarity alone is not enough. The agent can first search
+          semantically, then switch to graph operations when the task requires structural evidence.
+        </p>
+        <div class="columns">
+          <div class="column">
+            <h3 class="title is-5">Symbolic figure retrieval</h3>
+            <p>
+              For questions asking about all charts with a property, LAD-RAG can retrieve all figure nodes first, then
+              contextualize them with nearby layout and captions.
+            </p>
+          </div>
+          <div class="column">
+            <h3 class="title is-5">Cross-page continuation</h3>
+            <p>
+              For reference or appendix questions, graph contextualization recovers continuation pages that weak semantic
+              overlap may miss.
+            </p>
+          </div>
+        </div>
+        <div class="figure-wrap">
+          <img class="paper-figure" src="static/images/case-study-charts.png" alt="Case study: retrieving charts comparing general public with Latinos/Hispanics" />
+          <p class="figure-caption">Case study: symbolic filtering and contextualization recover distributed chart evidence.</p>
+        </div>
+        <div class="figure-wrap" style="margin-top: 1rem;">
+          <img class="paper-figure" src="static/images/case-study-references.png" alt="Case study: retrieving a multi-page references section" />
+          <p class="figure-caption">Case study: graph contextualization recovers a multi-page references section.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Experimental Setup</h2>
+        <div class="columns">
+          <div class="column">
+            <h3 class="title is-5">Datasets</h3>
+            <div class="pill-row">
+              <span class="pill">MMLongBench-Doc</span>
+              <span class="pill">LongDocURL</span>
+              <span class="pill">DUDE</span>
+              <span class="pill">MP-DocVQA</span>
+            </div>
+          </div>
+          <div class="column">
+            <h3 class="title is-5">Retrieval baselines</h3>
+            <div class="pill-row">
+              <span class="pill">BM25</span>
+              <span class="pill">E5-Large</span>
+              <span class="pill">BGE-Large</span>
+              <span class="pill">ColPali</span>
+              <span class="pill">RAPTOR</span>
+            </div>
+          </div>
+          <div class="column">
+            <h3 class="title is-5">QA models</h3>
+            <div class="pill-row">
+              <span class="pill">InternVL2-8B</span>
+              <span class="pill">Pixtral-12B</span>
+              <span class="pill">Phi-3.5-Vision</span>
+              <span class="pill">GPT-4o</span>
+            </div>
+          </div>
+        </div>
+        <p class="subtle-note">
+          Retrieval is evaluated with Perfect Recall and Irrelevant Pages Ratio; QA is evaluated with binary accuracy.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Results</h2>
+        <div class="metric-grid">
+          <div class="metric-card">
+            <span class="metric-value">&gt;90%</span>
+            <strong>perfect recall</strong>
+            <p>Average retrieval completeness without top-k tuning.</p>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">up to 20%</span>
+            <strong>recall improvement</strong>
+            <p>Higher recall at comparable irrelevant-page ratios.</p>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">5-8 pts</span>
+            <strong>near oracle evidence</strong>
+            <p>End-to-end QA approaches ground-truth evidence performance.</p>
+          </div>
+        </div>
+        <div class="figure-wrap" style="margin-top: 1rem;">
+          <img class="paper-figure" src="static/images/retrieval-results.png" alt="Retrieval performance of LAD-RAG compared to baselines" />
+          <p class="figure-caption">Retrieval performance across datasets. Red stars show LAD-RAG without top-k tuning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">What Makes LAD-RAG Work?</h2>
+        <p>
+          Ablations show that both graph querying and contextualization improve retrieval. Graph querying contributes the
+          largest gain, while contextualization helps recover structurally related evidence around retrieved nodes.
+        </p>
+        <table class="table is-fullwidth is-striped compact-table">
+          <thead>
+            <tr>
+              <th>Method</th>
+              <th>MMLongBench</th>
+              <th>LongDocURL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>LAD-RAG</strong></td><td class="good">0.979</td><td class="good">0.895</td></tr>
+            <tr><td>LAD-RAG w/o contextualization</td><td>0.957</td><td>0.819</td></tr>
+            <tr><td>LAD-RAG w/o graph query</td><td>0.856</td><td>0.809</td></tr>
+            <tr><td>LAD-RAG w/o both</td><td>0.840</td><td>0.774</td></tr>
+            <tr><td>RAPTOR</td><td>0.877</td><td>0.853</td></tr>
+            <tr><td>ColPali</td><td>0.831</td><td>0.791</td></tr>
+          </tbody>
+        </table>
+        <p class="subtle-note">
+          Values report the ratio of perfect recall to irrelevant page retrievals; higher is better.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">End-to-End QA</h2>
+        <p>
+          Better retrieval improves downstream question answering, especially when questions require multiple evidence pages.
+          LAD-RAG consistently narrows the gap between retrieved evidence and oracle ground-truth evidence.
+        </p>
+        <table class="table is-fullwidth is-striped compact-table">
+          <thead>
+            <tr>
+              <th>GPT-4o retrieval setting</th>
+              <th>MMLongBench</th>
+              <th>LongDocURL</th>
+              <th>DUDE</th>
+              <th>MP-DocVQA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Ground-truth evidence</td><td>0.696</td><td>0.714</td><td>0.807</td><td>0.895</td></tr>
+            <tr><td>Retrieving @ 10</td><td>0.610</td><td>0.622</td><td>0.706</td><td>0.819</td></tr>
+            <tr><td>Top-k adjusted</td><td>0.593</td><td>0.652</td><td>0.720</td><td>0.833</td></tr>
+            <tr><td><strong>LAD-RAG</strong></td><td class="good">0.625</td><td class="good">0.659</td><td class="good">0.725</td><td class="good">0.829</td></tr>
+          </tbody>
+        </table>
+        <p class="subtle-note">
+          Scores are QA accuracy. The full paper reports results across InternVL2-8B, Pixtral-12B, Phi-3.5-Vision, and GPT-4o.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Latency</h2>
+        <p>
+          Graph construction happens offline during ingestion. At inference time, the retrieval agent typically uses only a
+          small number of lightweight LLM calls over the pre-built graph and neural index.
+        </p>
+        <div class="columns">
+          <div class="column">
+            <div class="figure-wrap">
+              <img class="paper-figure" src="static/images/llm-calls.png" alt="Distribution of number of LLM calls per query" />
+              <p class="figure-caption">Number of agent calls per query.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="figure-wrap">
+              <img class="paper-figure" src="static/images/output-tokens.png" alt="Distribution of output tokens per query across LLM calls" />
+              <p class="figure-caption">Generated tokens per retrieval call.</p>
+            </div>
+          </div>
+        </div>
+        <div class="key-result">
+          LAD-RAG improves retrieval and QA while keeping inference overhead minimal, because the expensive document
+          understanding is moved to offline ingestion.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Conclusion</h2>
+        <p><strong>LAD-RAG makes RAG document-aware.</strong></p>
+        <ul>
+          <li>VRD questions need evidence across text, layout, figures/tables, and pages.</li>
+          <li>LAD-RAG builds a symbolic document graph alongside a neural index.</li>
+          <li>A dynamic agent retrieves evidence based on the question, not a fixed top-k.</li>
+          <li>Result: more complete retrieval, better QA, and minimal inference overhead.</li>
+        </ul>
+        <div class="key-result">Better document representation leads to better evidence, and better evidence leads to better answers.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop">
+      <div class="section-card content">
+        <h2 class="title is-3">Citation</h2>
+        <p>If you find LAD-RAG useful, please consider citing our paper:</p>
+        <button class="button is-small is-link is-light" onclick="copyBibTeX()" style="margin-bottom: 0.8rem;">Copy BibTeX</button>
+        <pre class="bibtex-box"><code>@misc{sourati2026ladrag,
+  title={LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding},
+  author={Zhivar Sourati and Zheng Wang and Marianne Menglin Liu and Yazhe Hu and Mengqing Guo and Sujeeth Bharadwaj and Kyu Han and Tao Sheng and Sujith Ravi and Morteza Dehghani and Dan Roth},
+  year={2026},
+  eprint={2510.07233},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2510.07233}
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <footer class="has-text-centered">
+    Built using the ToolScope project page style, adapted from the Academic Project Page Template.
+  </footer>
+
+  <script>
+    function copyBibTeX() {
+      const bib = `@misc{sourati2026ladrag,
+  title={LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding},
+  author={Zhivar Sourati and Zheng Wang and Marianne Menglin Liu and Yazhe Hu and Mengqing Guo and Sujeeth Bharadwaj and Kyu Han and Tao Sheng and Sujith Ravi and Morteza Dehghani and Dan Roth},
+  year={2026},
+  eprint={2510.07233},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2510.07233}
+}`;
+      navigator.clipboard.writeText(bib);
+    }
+  </script>
+</body>
+</html>
