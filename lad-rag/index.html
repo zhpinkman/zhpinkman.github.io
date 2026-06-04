@@ -232,6 +232,61 @@
       text-align: center;
     }
 
+    .explainer-grid {
+      align-items: center;
+      display: grid;
+      gap: 1.2rem;
+      grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
+    }
+
+    .explainer-grid.reverse {
+      grid-template-columns: minmax(280px, 0.92fr) minmax(0, 1.08fr);
+    }
+
+    .explainer-grid.reverse .explainer-text {
+      order: 1;
+    }
+
+    .explainer-grid.reverse .figure-wrap {
+      order: 2;
+    }
+
+    .explainer-text {
+      background: #ffffff;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 14px;
+      box-shadow: 0 8px 26px rgba(15, 23, 42, 0.045);
+      padding: 1.15rem;
+    }
+
+    .explainer-text h2 {
+      color: var(--ladrag-green);
+      margin-bottom: 0.65rem;
+    }
+
+    .explainer-list {
+      margin-left: 1.1rem;
+      margin-top: 0.75rem;
+    }
+
+    .explainer-list li {
+      margin-bottom: 0.45rem;
+    }
+
+    .case-figure-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: 1rem;
+    }
+
+    .case-figure-card {
+      background: #f8fbfd;
+      border: 1px solid var(--ladrag-border);
+      border-radius: 12px;
+      padding: 0.75rem;
+    }
+
     .paper-figure {
       background: #fff;
       border: 1px solid var(--ladrag-border);
@@ -337,6 +392,17 @@
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+      }
+
+      .explainer-grid,
+      .explainer-grid.reverse,
+      .case-figure-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .explainer-grid.reverse .explainer-text,
+      .explainer-grid.reverse .figure-wrap {
+        order: initial;
       }
     }
   </style>
@@ -447,9 +513,23 @@
 
   <section class="section" style="padding-top: 0.25rem;">
     <div class="container is-max-desktop">
-      <div class="figure-wrap">
-        <img class="paper-figure" src="static/images/ladrag-overview.png" alt="LAD-RAG motivation and overview figure" />
-        <p class="figure-caption">LAD-RAG complements neural indexing with symbolic document structure and dynamic retrieval.</p>
+      <div class="explainer-grid">
+        <div class="figure-wrap">
+          <img class="paper-figure" src="static/images/ladrag-overview.png" alt="LAD-RAG motivation and overview figure" />
+          <p class="figure-caption">LAD-RAG complements neural indexing with symbolic document structure and dynamic retrieval.</p>
+        </div>
+        <div class="explainer-text content">
+          <h2 class="title is-4">From Chunks to Documents</h2>
+          <p>
+            Conventional RAG treats a visually rich document as a set of isolated retrieval units. LAD-RAG keeps the same
+            semantic retrieval pathway, but adds an explicit representation of how document elements relate to each other.
+          </p>
+          <ul class="explainer-list">
+            <li><strong>Neural index:</strong> retrieves semantically similar content.</li>
+            <li><strong>Document graph:</strong> preserves layout, sections, captions, figures, and cross-page links.</li>
+            <li><strong>Dynamic agent:</strong> decides how much evidence to retrieve for each question.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -485,9 +565,23 @@
 
   <section class="section" style="padding-top: 0.25rem;">
     <div class="container is-max-desktop">
-      <div class="figure-wrap">
-        <img class="paper-figure" src="static/images/ladrag-framework.png" alt="LAD-RAG framework diagram" />
-        <p class="figure-caption">Framework overview: offline ingestion builds document representations; inference uses them adaptively.</p>
+      <div class="explainer-grid reverse">
+        <div class="explainer-text content">
+          <h2 class="title is-4">How the Pipeline Works</h2>
+          <p>
+            LAD-RAG shifts the expensive document understanding step offline, then keeps inference lightweight and
+            question-adaptive.
+          </p>
+          <ul class="explainer-list">
+            <li><strong>Ingestion:</strong> parse each page, extract elements, update memory, and build graph edges.</li>
+            <li><strong>Storage:</strong> keep both symbolic graph structure and neural summaries.</li>
+            <li><strong>Inference:</strong> use semantic search, graph filtering, and contextualization as needed.</li>
+          </ul>
+        </div>
+        <div class="figure-wrap">
+          <img class="paper-figure" src="static/images/ladrag-framework.png" alt="LAD-RAG framework diagram" />
+          <p class="figure-caption">Framework overview: offline ingestion builds document representations; inference uses them adaptively.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -516,13 +610,19 @@
             </p>
           </div>
         </div>
-        <div class="figure-wrap">
-          <img class="paper-figure" src="static/images/case-study-charts.png" alt="Case study: retrieving charts comparing general public with Latinos/Hispanics" />
-          <p class="figure-caption">Case study: symbolic filtering and contextualization recover distributed chart evidence.</p>
-        </div>
-        <div class="figure-wrap" style="margin-top: 1rem;">
-          <img class="paper-figure" src="static/images/case-study-references.png" alt="Case study: retrieving a multi-page references section" />
-          <p class="figure-caption">Case study: graph contextualization recovers a multi-page references section.</p>
+        <div class="case-figure-grid">
+          <div class="case-figure-card">
+            <div class="figure-wrap">
+              <img class="paper-figure" src="static/images/case-study-charts.png" alt="Case study: retrieving charts comparing general public with Latinos/Hispanics" />
+              <p class="figure-caption">Symbolic filtering and contextualization recover distributed chart evidence.</p>
+            </div>
+          </div>
+          <div class="case-figure-card">
+            <div class="figure-wrap">
+              <img class="paper-figure" src="static/images/case-study-references.png" alt="Case study: retrieving a multi-page references section" />
+              <p class="figure-caption">Graph contextualization recovers a multi-page references section.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
