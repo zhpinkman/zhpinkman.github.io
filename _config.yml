@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhivar Sourati"
 title_separator          : "-"
 name                     : &name "Zhivar Sourati"
-description              : &description "PhD Student at University of Southern California"
+description              : &description "PhD Candidate in Computer Science at the University of Southern California"
 url                      : https://zhpinkman.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhpinkman/zhpinkman.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zhivar Sourati"
   avatar           : "profile.jpg"
-  bio              : "PhD Student at University of Southern California"
+  bio              : "PhD Candidate at University of Southern California"
   # location         : ""
   employer         :
   pubmed           : 
@@ -123,6 +123,44 @@ include:
   - _pages
   - files
 exclude:
+  # --- Pages/collections intentionally not published (kept in repo, excluded from the site) ---
+  - _pages/honors.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/reading.md
+  - _pages/research.md
+  - _pages/skills.md
+  - _pages/sitemap.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/archive-layout-with-content.md
+  - _pages/terms.md
+  - _pages/portfolio.html
+  - _pages/talks.html
+  - _pages/talkmap.html
+  - _pages/year-archive.html
+  - _pages/category-archive.html
+  - _pages/tag-archive.html
+  - _pages/collection-archive.html
+  - _pages/page-archive.html
+  - _posts
+  - _drafts
+  - _portfolio
+  - _talks
+  - _teaching
+  - _publications
+  - _education
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - markdown_generator
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - README.md
+  # --- template defaults ---
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

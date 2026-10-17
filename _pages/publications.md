@@ -5,26 +5,33 @@ permalink: /publications/
 author_profile: true
 ---
 
--   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, … & Dehghani, M. (2026). [*The subjectivity of respect in police traffic stops: Modeling community perspectives in body-worn camera footage*](https://arxiv.org/abs/2602.10339) (Accepted to ACL 2026)
+-   **Sourati, Z.**, Liu, M. M., Wang, R., Wang, Z., Hu, Y., Guo, L., ... & Roth, D. (2026). [*VELD-QA: A Large-Scale Dataset for Visual Evidence Grounding and Question Answering in Long Documents.*](https://arxiv.org/abs/2610.20964) arXiv preprint arXiv:2610.20964. (Under review)
 
--   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review in ARR)
+-   **Sourati, Z.**, Liu, M. M., Wang, Z., Wang, R., Somayajula, S. A., Sheng, T., ... & Roth, D. (2026). [*Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents.*](https://arxiv.org/abs/2610.20959) arXiv preprint arXiv:2610.20959. (Under review)
 
--   Daryani, Y., **Sourati, Z.**, & Dehghani, M. (2025). [*The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy.*](https://doi.org/10.1177/23727322251406591) (Accepted to Policy Insights from the Behavioral and Brain Sciences)
+-   **Sourati, Z.**, Wu, M. H., Ghazizadeh, N., Kaplan, J., Dehghani, M., & Nastase, S. A. (2026). [*Cognitive Expert Language Models Better Align with the Corresponding Brain Systems.*](https://arxiv.org/abs/2609.36239) arXiv preprint arXiv:2609.36239. (Under review)
 
--   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2026). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) (Accepted to ACL 2026)
+-   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2026). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://doi.org/10.1038/s41562-026-02550-0) Nature Human Behaviour.
 
--   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2026). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(26)00003-3) (Accepted to Trends in Cognitive Sciences)
+-   **Sourati, Z.**, Ziabari, A. S., & Dehghani, M. (2026). [*The Homogenizing Effect of Large Language Models on Human Expression and Thought.*](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(26)00003-3) Trends in Cognitive Sciences.
 
--   **Sourati, Z.**, Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., ... & Dehghani, M. (2025). [*The Shrinking Landscape of Linguistic Diversity in the Age of Large Language Models.*](https://arxiv.org/abs/2502.11266) (Accepted to Nature Human Behaviour)
+-   **Sourati, Z.**, Wang, Z., Liu, M. M., Hu, Y., Guo, M., Bharadwaj, S., ... & Roth, D. (2026). [*LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding.*](https://arxiv.org/abs/2510.07233) In Proceedings of ACL 2026 (Volume 1: Long Papers).
 
--   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2025). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) (Under review in ICLR)
+-   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, Ghazizadeh, N., Chochlakis, G., ... & Dehghani, M. (2026). [*The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage.*](https://arxiv.org/abs/2602.10339) In Proceedings of ACL 2026 (Volume 1: Long Papers).
 
+-   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2026). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) (Accepted to COLM 2026)
+
+-   Rahmati, E., Ghazizadeh, N., **Sourati, Z.**, Rouhani, N., & Dehghani, M. (2026). [*Structural Abstraction as an Inductive Bias for Non-Stationary Language Model Training.*](https://arxiv.org/abs/2603.17198) arXiv preprint arXiv:2603.17198. (Under review)
+
+-   Karimi-Malekabadi, F., Abdurahman, S., **Sourati, Z.**, Trager, J., & Dehghani, M. (2026). [*Theory Trace Card: Theory-Driven Socio-Cognitive Evaluation of LLMs.*](https://arxiv.org/abs/2601.01878) arXiv preprint arXiv:2601.01878. (Under review)
+
+-   Daryani, Y., **Sourati, Z.**, & Dehghani, M. (2025). [*The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy.*](https://doi.org/10.1177/23727322251406591) Policy Insights from the Behavioral and Brain Sciences.
 
 -   Ahrabian, K.\*, **Sourati, Z.\***, Sun, K., Zhang, J., Jiang, Y., Morstatter, F., & Pujara, J. (2024). [*The Curious Case of Nonverbal Abstract Reasoning with Multi-Modal Large Language Models.*](https://arxiv.org/abs/2401.12117) (Accepted to COLM 2024)
 
 -   Jiang, Y., Zhang, J., Sun, K., **Sourati, Z.**, Ahrabian, K., Ma, K., ... & Pujara, J. (2024). [*MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning.*](https://arxiv.org/abs/2404.13591) (Accepted to NeurIPS 2024)
 
--   **Sourati, Z.**, Ilievski, F., & Sommerauer, P. (2024). [*ARN: A Comprehensive Framework and Dataset for Analogical Reasoning on Narratives.*](https://arxiv.org/abs/2310.00996) (Accepted to TACL)
+-   **Sourati, Z.**, Ilievski, F., Sommerauer, P., & Jiang, Y. (2024). [*ARN: Analogical Reasoning on Narratives.*](https://arxiv.org/abs/2310.00996) Transactions of the Association for Computational Linguistics.
 
 -   Deshpande, D., **Sourati, Z.**, Ilievski, F., & Morstatter, F. (2024). [*Contextualizing Argument Quality Assessment with Relevant Knowledge.*](https://arxiv.org/abs/2305.12280) (Accepted to NAACL 2024)
 
@@ -49,3 +56,5 @@ author_profile: true
 -   **Sourati, Z.**, von Däniken, P., & Cieliebak, M. (2022). *Ukraine–Russia: First insights into recent Twitter posts about this conflict.* SwissText 2022 (Poster).  
 
 -   von Däniken, P., **Sourati, Z.**, & Tuggener, D. (2022). *Hateful Social Media Users – Can we predict their behavior?* SwissText 2022 (Poster).
+
+-   Chamani, H., **Sourati, Z.**, & Bahrak, B. (2021). *An Overview of Regression Methods in Early Prediction of Movie Ratings.* In 2021 11th International Conference on Computer Engineering and Knowledge (ICCKE). IEEE.
