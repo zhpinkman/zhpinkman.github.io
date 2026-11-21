@@ -7,7 +7,7 @@ author_profile: true
 
 -   **Sourati, Z.**, Liu, M. M., Wang, R., Wang, Z., Hu, Y., Guo, L., ... & Roth, D. (2026). [*VELD-QA: A Large-Scale Dataset for Visual Evidence Grounding and Question Answering in Long Documents.*](https://arxiv.org/abs/2610.20964) arXiv preprint arXiv:2610.20964. (Under review)
 
--   **Sourati, Z.**, Liu, M. M., Wang, Z., Wang, R., Somayajula, S. A., Sheng, T., ... & Roth, D. (2026). [*Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents.*](https://arxiv.org/abs/2610.20959) arXiv preprint arXiv:2610.20959. (Under review)
+-   **Sourati, Z.**, Liu, M. M., Wang, Z., Wang, R., Somayajula, S. A., Sheng, T., ... & Roth, D. (2026). [*Same Context, Different Agents: A Behavioral Study of Semantic Layers, Multi-Agent Orchestration and Memory Compaction in Data Agents.*](https://arxiv.org/abs/2610.20959) arXiv preprint arXiv:2610.20959. (Under review)
 
 -   **Sourati, Z.**, Wu, M. H., Ghazizadeh, N., Kaplan, J., Dehghani, M., & Nastase, S. A. (2026). [*Cognitive Expert Language Models Better Align with the Corresponding Brain Systems.*](https://arxiv.org/abs/2609.36239) arXiv preprint arXiv:2609.36239. (Under review)
 
