@@ -19,7 +19,7 @@ author_profile: true
 
 -   Golazizian, P., Rahmati, E., Trager, J., **Sourati, Z.**, Ghazizadeh, N., Chochlakis, G., ... & Dehghani, M. (2026). [*The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage.*](https://arxiv.org/abs/2602.10339) In Proceedings of ACL 2026 (Volume 1: Long Papers).
 
--   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2026). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) (Accepted to COLM 2026)
+-   Ziabari, A. S., Ghazizadeh, N., **Sourati, Z.**, Karimi-Malekabadi, F., Piray, P., & Dehghani, M. (2026). [*Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking.*](https://arxiv.org/abs/2502.12470) In Proceedings of the Third Conference on Language Modeling (COLM 2026).
 
 -   Rahmati, E., Ghazizadeh, N., **Sourati, Z.**, Rouhani, N., & Dehghani, M. (2026). [*Structural Abstraction as an Inductive Bias for Non-Stationary Language Model Training.*](https://arxiv.org/abs/2603.17198) arXiv preprint arXiv:2603.17198. (Under review)
 
